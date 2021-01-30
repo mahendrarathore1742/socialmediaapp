@@ -1,0 +1,42 @@
+.CreatePost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.CreatePost_loggedin {
+  background-color: white;
+  width: 100%;
+  max-width: 650px;
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.createPost_Imageupload > input {
+  display: none;
+}
+
+.createpost_button {
+  border: none;
+  background-color: white;
+}
+
+.createpost_Bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CreatePost_textarea {
+  border: none;
+  width: 100%;
+  outline: none;
+  resize: none;
+}
+#image_preview {
+  display: none;
+  height: 80px;
+  border-radius: 4px;
+  margin: 12px 0px;
+}
